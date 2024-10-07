@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira página</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>Parisotto</h1>
+            <h1>Pietro</h1>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="sobre.html">SOBRE</a></li>
@@ -18,11 +19,41 @@
         </nav>
     </header>
     <main>
-      
+      <section>
+        <h1>Nossa localização</h1>
+
+        <p>Avenida Jornalista Roberto Marinho, 2025 - Itaim Bibi</p>
+        <p>Referência: Etec Jornalista Roberto Marinho</p>
+        <p>São Paulo - SP - Brasil</p>
+        <p>CEP 123</p>
+        
+        <h2>Redes Sociais</h2>
+
+        <p id="privacidade"><a href="#">&copy; 2025 Política de privacidade</a></p>
+      </section>
+      <section>
+        <h1>Entre em contato</h1>
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome"
+            id="nome" required>
+
+            <label for="fone">Telefone</label>
+            <input type="tel" name="fone" 
+            id="fone" required>
+            
+            <label for="email">Email(opicional)</label>
+            <input type="email" name="email" id="email">
+
+            <textarea name="sgm" id="msg" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>Copyright &copy; 1962-2024 - <a href="https://parisotto.net" target="_blank">Parisotto.Net Internet</a></p>
-        <p>Website Design by Edson Parisotto</p>
+        <p>Copyright &copy; 2009-2024</p>
+        <p>Website Design by Pietro Lagreca</p>
     </footer>
 </body>
 </html>
